@@ -14,6 +14,6 @@
 ---
 include:
   - board: xiao_ble
-    shield: chipper_left
+    shield: chipper_left nice_view_adapter nice_view 
   - board: xiao_ble
-    shield: chipper_right
+    shield: chipper_right nice_view_adapter nice_view

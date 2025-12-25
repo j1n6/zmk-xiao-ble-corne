@@ -81,7 +81,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
 };
 
 
-display_spi: &spi0 {
+nice_view_spi: &spi0 {
 	compatible = "nordic,nrf-spim";
 	pinctrl-0 = <&spi0_default>;
 	pinctrl-1 = <&spi0_sleep>;
@@ -89,7 +89,7 @@ display_spi: &spi0 {
 	cs-gpios = <&gpio0 9 GPIO_ACTIVE_HIGH>;
 };
 
-&display_spi {
+&nice_view_spi {
 	status = "okay";
 	sharp: ls0xx@0 {
 		compatible = "sharp,ls0xx";
