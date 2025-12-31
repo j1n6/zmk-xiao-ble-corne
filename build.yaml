@@ -15,11 +15,11 @@
 include:
   - board: xiao_ble
     shield: chipper_left nice_view_adapter nice_view 
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: chipper-left
   - board: xiao_ble
     shield: chipper_right nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: chipper-right
 
   - board: xiao_ble
