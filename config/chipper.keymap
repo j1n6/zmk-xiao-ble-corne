@@ -17,6 +17,10 @@
 #define ADJS    4
 
 
+&kscan0 {
+	debounce-period = <20>;	
+};
+        
 / {
         
         chosen {
