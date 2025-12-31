@@ -16,4 +16,3 @@
 		, <&gpio1 11 GPIO_ACTIVE_HIGH>   //Col5
 		;
 };
-
