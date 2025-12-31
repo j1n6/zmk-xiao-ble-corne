@@ -2,17 +2,23 @@
 
 / {
     chosen {
+        /* This line tells ZMK to use the mock scan instead of looking for kscan0 */
         zmk,kscan = &mock_kscan;
+        zmk,matrix_transform = &default_transform;
+        
+        /* If using ZMK Studio (2025 compatibility) */
+        zmk,physical-layout = &physical_layout0;
     };
 
-    mock_kscan: mock_kscan_0 {
+    mock_kscan: kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
         events = <0>;
     };
 
-	default_transform: keymap_transform_0 {
+
+    default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <12>;
 		rows = <4>;
@@ -27,4 +33,13 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9)
                         RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8)
 		>;
 	};
+
+    /* A barebones physical layout is required for recent ZMK versions */
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+    };
+
+
 };
