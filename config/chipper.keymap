@@ -46,6 +46,7 @@
                             >;
 
                   label = "Jing";
+                  display-name = "Base";
                 };
 
 
@@ -68,6 +69,7 @@
                                        &trans   &trans    &trans      &trans     &mo ADJS     &trans
                             >;
                   label = "NUM";
+                  display-name = "Number";
                 };
 
 
@@ -90,6 +92,7 @@
                                       &trans    &mo ADJS    &trans       &trans     &trans     &trans
                         >;
                         label = "SYM";
+                        display-name = "Symbol";
                 };
 
 
@@ -111,6 +114,7 @@
                                      &kp LGUI  &none    &kp LALT     &none      &none      &none
                         >;
                         label = "NAV";
+                        display-name = "Navigation";
                 };
 
 
@@ -133,6 +137,7 @@
                                                     &kp LALT      &none         &none              &none        &none     &trans
                         >;
                         label = "Profile";
+                        display-name = "Setting";
                 };
         };
 };

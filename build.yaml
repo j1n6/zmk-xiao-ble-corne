@@ -14,6 +14,10 @@
 ---
 include:
   - board: xiao_ble
+    shield: chipper_dongle prospector_adapter
+  - board: xiao_ble
     shield: chipper_left nice_view_adapter nice_view 
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: xiao_ble
     shield: chipper_right nice_view_adapter nice_view
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
