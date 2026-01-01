@@ -8,6 +8,8 @@ manifest:
     # Dongle Screen
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: bwshockley
+      url-base: https://github.com/bwshockley/zmk-dongle-screen
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,7 +20,7 @@ manifest:
       remote: carrefinho
       revision: core/zephyr-4-1
     - name: zmk-dongle-screen
-      remote: janpfischer
+      remote: bwshockley
       revision: main
   self:
     path: config
