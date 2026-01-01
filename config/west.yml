@@ -19,8 +19,5 @@ manifest:
     - name: prospector-zmk-Module
       remote: carrefinho
       revision: core/zephyr-4-1
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
   self:
     path: config
