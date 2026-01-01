@@ -1,9 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&arduino_i2c {
-    status = "okay";
-    // The light sensor (usually a BH1750 or similar) 
-    // is defined here by the prospector_adapter shield.
+&i2c0 {
+   status = "okay";
+
+   apds9960: apds9960@39 {
+       compatible = "avago,apds9960";
+       status = "okay";
+       reg = <0x39>;
+       int-gpios = <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+   };
 };
 
 / {
