@@ -13,11 +13,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      # revision: main
+      revision: v3.0.0
       import: app/west.yml
     # Prospector ZMK Module
     - name: prospector-zmk-Module
       remote: carrefinho
-      revision: core/zephyr-4-1
+      # revision: core/zephyr-4-1
+      revision: main
   self:
     path: config
