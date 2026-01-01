@@ -14,7 +14,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       # revision: main
-      revision: v3.0.0
+      revision: 3.0.0
       import: app/west.yml
     # Prospector ZMK Module
     - name: prospector-zmk-Module
