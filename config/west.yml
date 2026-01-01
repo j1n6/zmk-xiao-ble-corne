@@ -5,13 +5,6 @@ manifest:
     # Prospector ZMK Module Remote
     - name: carrefinho                            
       url-base: https://github.com/carrefinho
-    - name: j1n6                            
-      url-base: https://github.com/j1n6
-    # Dongle Screen
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
-    - name: bwshockley
-      url-base: https://github.com/bwshockley
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,7 +12,7 @@ manifest:
       import: app/west.yml
     # Prospector ZMK Module
     - name: prospector-zmk-Module
-      remote: j1n6
+      remote: carrefinho
       revision: core/zephyr-4-1
   self:
     path: config
