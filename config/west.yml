@@ -20,7 +20,7 @@ manifest:
       remote: carrefinho
       revision: core/zephyr-4-1
     - name: zmk-dongle-screen
-      remote: bwshockley
+      remote: janpfischer
       revision: main
   self:
     path: config
