@@ -17,8 +17,7 @@ manifest:
       import: app/west.yml
     # Prospector ZMK Module
     - name: prospector-zmk-Module
-      #remote: carrefinho
+      remote: carrefinho
       revision: core/zephyr-4-1
-      revision: main
   self:
     path: config
