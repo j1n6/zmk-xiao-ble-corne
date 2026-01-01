@@ -4,7 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Prospector ZMK Module Remote
     - name: carrefinho                            
-      url-base: https://github.com/carrefinho 
+      url-base: https://github.com/carrefinho
+    # Dongle Screen
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,5 +17,8 @@ manifest:
     - name: prospector-zmk-Module
       remote: carrefinho
       revision: core/zephyr-4-1
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
   self:
     path: config

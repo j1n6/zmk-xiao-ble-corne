@@ -1,8 +1,5 @@
 if SHIELD_CHIPPER_DONGLE
 
-config PROSPECTOR_USE_AMBIENT_LIGHT_SENSOR
-	default y
-
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
     default "Chipper"
