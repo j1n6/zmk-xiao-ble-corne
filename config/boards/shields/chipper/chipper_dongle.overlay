@@ -1,16 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&i2c0 {
-   status = "okay";
-
-   apds9960: apds9960@39 {
-       compatible = "avago,apds9960";
-       status = "okay";
-       reg = <0x39>;
-       int-gpios = <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-   };
-};
-
 / {
     chosen {
         /* This line tells ZMK to use the mock scan instead of looking for kscan0 */
