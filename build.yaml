@@ -25,6 +25,7 @@ include:
   - board: xiao_ble
     shield: chipper_dongle prospector_adapter
     artifact-name: prospector-dongle
+    snippet: zmk-usb-logging
   - board: xiao_ble
     shield: settings_reset
     artifact-name: settings-reset
