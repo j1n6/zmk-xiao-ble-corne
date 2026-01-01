@@ -1,5 +1,8 @@
 if SHIELD_CHIPPER_DONGLE
 
+config PROSPECTOR_USE_AMBIENT_LIGHT_SENSOR
+	default y
+
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
     default "Chipper"
@@ -32,7 +35,7 @@ if SHIELD_CHIPPER_LEFT
 config ZMK_KEYBOARD_NAME
 	default "Chipper Left"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
+config ZMK_SPLIT_ROLE_CENTRAL
 	default n
 
 endif
