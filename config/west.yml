@@ -9,7 +9,7 @@ manifest:
     - name: janpfischer
       url-base: https://github.com/janpfischer
     - name: bwshockley
-      url-base: https://github.com/bwshockley/zmk-dongle-screen
+      url-base: https://github.com/bwshockley
   projects:
     - name: zmk
       remote: zmkfirmware
